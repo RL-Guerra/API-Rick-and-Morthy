@@ -28,6 +28,13 @@ header {
     text-align: center;
 }
 
+#logo{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    margin-left: 42%;
+}
+
 #characterContainer {
     display: flex;
     flex-wrap: wrap;
