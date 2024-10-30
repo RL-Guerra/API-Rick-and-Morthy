@@ -29,10 +29,10 @@ header {
 }
 
 #logo{
-    width: 250px;
+    width: 550px;
     height: 250px;
     display: flex;
-    margin-left: 42%;
+    margin-left: 29.5%;
 }
 
 #characterContainer {
