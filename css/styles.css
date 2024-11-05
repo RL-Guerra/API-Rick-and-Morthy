@@ -26,13 +26,14 @@ header {
     color: var(--titulo);
     padding: 10px 0;
     text-align: center;
-}
+    margin: auto;
 
-#logo{
-    width: 550px;
-    height: 250px;
-    display: flex;
-    margin-left: 29.5%;
+    & #logo{
+        margin: auto;
+        width: 550px;
+        height: 250px;
+        display: flex;
+    }
 }
 
 #characterContainer {
@@ -69,18 +70,16 @@ footer#rodape {
     margin-top: auto;
     clear: both;
     border-top: 1px solid var(--borda);
-}
 
-footer#rodape p {
-    text-align: center;
-}
-
-footer#rodape a {
-    text-decoration: none;
-    color: var(--titulo);
-}
-
-footer#rodape a:hover{
-    color: blue;
-    text-decoration: underline;
+    & p{
+        text-align: center;
+    }
+    & a{
+        text-decoration: none;
+        color: var(--titulo);
+    }
+    & a:hover{
+        color: blue;
+        text-decoration: underline;
+    }
 }
