@@ -36,6 +36,20 @@ header {
     }
 }
 
+div {
+    & h3 {
+        color: var(--titulo);
+    }
+    & p {
+        color:yellow;
+        margin-top: 5%;    
+    }
+    & img {
+        width: 60%;
+        height: 60%;
+    }
+}
+
 #characterContainer {
     display: flex;
     flex-wrap: wrap;
