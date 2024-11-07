@@ -33,6 +33,15 @@ header {
         width: 550px;
         height: 250px;
         display: flex;
+    }& #pag{
+        text-decoration: none;
+        display: block;
+        color: var(--titulo);
+        
+        margin: 15px 0px 10px 0px ;
+    }& #pag:hover{
+        color: blue;
+        text-decoration: underline;
     }
 }
 
